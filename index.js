@@ -83,9 +83,10 @@ async function main() {
         for (let i = 1; i < rows.length; i++) {
             const row = rows.eq(i);
             const columns = row.find("td");
-
             const oldRow = oldRows
-                .find(`td:contains('${columns.eq(0).text()}')`)
+                .find(
+                    `td:contains('${columns.eq(0).text().replace("𝐍𝐄𝐖", "")}')`
+                )
                 .parent();
             if (oldRow.length === 0) {
                 console.log("Row", i, "not found in old table.");
@@ -119,6 +120,7 @@ async function main() {
             let message = `## ${columns
                 .eq(0)
                 .text()
+                .replace("𝐍𝐄𝐖", "")
                 .replace(/\s+/g, " ")} 特選資訊已更新\n**名額:** ${columns
                 .eq(1)
                 .text()
