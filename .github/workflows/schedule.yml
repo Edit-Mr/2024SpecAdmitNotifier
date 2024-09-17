@@ -27,3 +27,10 @@ jobs:
               run: node index.js
               env:
                   WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
+            - name: 自動提交
+              uses: stefanzweifel/git-auto-commit-action@v4
+              with:
+                  commit_message: "Update data"
+                  branch: main
+                  commit_user_name: Edit-Mr
+                  commit_user_email: info@elvismao.com
