@@ -1,0 +1,16 @@
+{
+  "name": "2024SpecAdmitNotifier",
+  "version": "1.0.0",
+  "description": "Discord notification for admission updates.",
+  "main": "index.js",
+  "repository": "https://github.com/Edit-Mr/2024SpecAdmitNotifier.git",
+  "author": "Edit-Mr <info@elvismao.com>",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0"
+  }
+}
