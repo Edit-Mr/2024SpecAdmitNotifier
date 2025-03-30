@@ -2,6 +2,11 @@
 
 每小時去 [甄戰](https://www.reallygood.com.tw/newExam/inside?str=932DEFBF9A06471E3A1436C3808D1BB7) 看一下簡章有沒有更新。
 
+> [!NOTE]
+> 畢竟已經特選完了，這個 Repo 先 Archive 了。如果之後還想要使用可以自行 fork 並修改原始碼裡的網址跑看看。
+> 
+> 如果你想特選的話也許你會想看看我的[部落格文章](https://emtech.cc/tag/特殊選才)？
+
 ![demo](demo.png)
 
 ## 如何使用
